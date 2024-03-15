@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5880f329f1942541959f367d04c5726b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5880f329f1942541959f367d04c5726b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5880f329f1942541959f367d04c5726b = L.map(
+                "map_5880f329f1942541959f367d04c5726b",
+                {
+                    center: [13.059520738468947, 80.24500945375434],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bff0bc600d2e4f4e597ff81d7fd18ebb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_0cdcc6c908b18df4438eec0173b8bfe5 = L.polyline(
+                [[13.0618324, 80.2411229], [13.0619146, 80.24185]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_36ad121681ae13c94d9fa6e5ccd982f2 = L.polyline(
+                [[13.0619146, 80.24185], [13.0615757, 80.2418933]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_5824df7c88a1bd5b2247a33108d0a3b9 = L.polyline(
+                [[13.0615757, 80.2418933], [13.0616544, 80.2422152]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_7c3a4e74d486c1ad919c0cc6ef1c787b = L.polyline(
+                [[13.0616544, 80.2422152], [13.0618084, 80.2428683], [13.0618188, 80.2432349]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_910a868fc3d04e3270ddd7446e0d827d = L.polyline(
+                [[13.0618188, 80.2432349], [13.0617149, 80.2447288]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_a8333c97a15af8ef80f4d9c150bb42df = L.polyline(
+                [[13.0617149, 80.2447288], [13.0616858, 80.2454303]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_2e22e7cf2b73ebfcf46b01a4f1014a72 = L.polyline(
+                [[13.0616858, 80.2454303], [13.0609192, 80.2453685]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_fca0038e0483917a16bdecbd8c602479 = L.polyline(
+                [[13.0609192, 80.2453685], [13.0602357, 80.2453035]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_0a49a3dc9005a9fef9eeebf8ad86cd50 = L.polyline(
+                [[13.0602357, 80.2453035], [13.0599787, 80.2452871]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_b46aa0399663cd07d86bb8e28b39fc7c = L.polyline(
+                [[13.0599787, 80.2452871], [13.0595224, 80.245258]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_c41b2233d8160861c125760c239d7bfc = L.polyline(
+                [[13.0595224, 80.245258], [13.0595855, 80.2456969]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_b126c9827d8d6fbf4f1b1ebcf80d2e1d = L.polyline(
+                [[13.0595855, 80.2456969], [13.0577362, 80.2456755], [13.0576466, 80.2456825], [13.0571717, 80.2457195], [13.0569557, 80.2457567]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_7e734bc58fb5e021f7d1db3cc7f369cc = L.polyline(
+                [[13.0569557, 80.2457567], [13.0571189, 80.2465802], [13.0571764, 80.2469313]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_826b329ee0a0448efbe70a5e93daf41e = L.polyline(
+                [[13.0571764, 80.2469313], [13.0567273, 80.246946], [13.0558234, 80.2469793]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var poly_line_93678dd1904aa8e97750c64ea60f23ea = L.polyline(
+                [[13.0558234, 80.2469793], [13.0559118, 80.247642]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            map_5880f329f1942541959f367d04c5726b.fitBounds(
+                [[13.0558234, 80.2411229], [13.0619146, 80.247642]],
+                {}
+            );
+        
+    
+            var marker_8a51f82a05253372e1d79d0b104252b3 = L.marker(
+                [13.0620626, 80.240487],
+                {}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var icon_fe96a1df5aad5a0ab099e1bf97306b7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a51f82a05253372e1d79d0b104252b3.setIcon(icon_fe96a1df5aad5a0ab099e1bf97306b7b);
+        
+    
+        var popup_b83394ba2349f75adc609a00757cfd2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c7edc15d72ae9da1820d8f8b6055ea0 = $(`<div id="html_6c7edc15d72ae9da1820d8f8b6055ea0" style="width: 100.0%; height: 100.0%;">Nungambakkam, Ward 110, Zone 9, Chennai, Chennai District, Tamil Nadu, 600001, India</div>`)[0];
+                popup_b83394ba2349f75adc609a00757cfd2f.setContent(html_6c7edc15d72ae9da1820d8f8b6055ea0);
+            
+        
+
+        marker_8a51f82a05253372e1d79d0b104252b3.bindPopup(popup_b83394ba2349f75adc609a00757cfd2f)
+        ;
+
+        
+    
+    
+            var marker_a494e7df52f093b9b08ad54cd6b09e1b = L.marker(
+                [13.0561828, 80.2478331],
+                {}
+            ).addTo(map_5880f329f1942541959f367d04c5726b);
+        
+    
+            var icon_76fa465b636473e5f6a77a07e6211553 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a494e7df52f093b9b08ad54cd6b09e1b.setIcon(icon_76fa465b636473e5f6a77a07e6211553);
+        
+    
+        var popup_572b3260528939363c2b7f2138013b71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd9ac8637825051e5ab8e55cae1e6b40 = $(`<div id="html_dd9ac8637825051e5ab8e55cae1e6b40" style="width: 100.0%; height: 100.0%;">SIMS Hospital, Tirumurthy Nagar Main Road, CMWSSB Division 113, Ward 113, Zone 9, Chennai, Chennai District, Tamil Nadu, 600034, India</div>`)[0];
+                popup_572b3260528939363c2b7f2138013b71.setContent(html_dd9ac8637825051e5ab8e55cae1e6b40);
+            
+        
+
+        marker_a494e7df52f093b9b08ad54cd6b09e1b.bindPopup(popup_572b3260528939363c2b7f2138013b71)
+        ;
+
+        
+    
+</script>
+</html>
